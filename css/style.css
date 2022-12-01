@@ -174,20 +174,24 @@ body {
 }
 
 @media(max-width: 1080px) {
+
+    .square-principal .square {
+        top: 30vh
+    }
     .square-principal .square-body {
         color: white;
         text-align: center;
         margin: 23px;
         margin-top: -850px;
         position: relative;
-        top: 65px;
+        top: 295px;
     }
 
     .header-principal .calc {
         transition: all 0.3s;
         position: relative;
         height: 48px;
-        top: -405px;
+        top: -155px;
         border-radius: 20px;
         width: 120px;
         box-shadow: 2px 5px 15px rgba(255, 255, 255, 0.4);

@@ -1,0 +1,174 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 935px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #2a001b, #3a2348, #3a4775, #266e9b, #0096b5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(7px);
+}
+
+.header-principal {
+    position: absolute;
+}
+
+.menu-principal {
+    position: absolute;
+    margin-bottom: 870px;
+    margin-right: 100px;
+}
+
+.header-principal .calc {
+    transition: all 0.3s;
+    position: relative;
+    height: 48px;
+    top: 20px;
+    border-radius: 20px;
+    width: 120px;
+    box-shadow: 2px 5px 15px rgba(255, 255, 255, 0.4);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.header-principal .calc:hover {
+    opacity: 80%;
+    transition: all 0.3s;
+}
+
+.header-principal .calc .calcimg img {
+    transition: all 0.3s;
+
+}
+
+.header-principal .calc .calcimg img:hover {
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 60%;
+    transform: scale(0.9);
+    opacity: 60%;
+    transition: all 0.3s;
+}
+
+
+.header-principal {
+    color: white;
+    text-align: center;
+    height: 95px;
+}
+
+.square-principal .square {
+    transition: all 0.3s;
+    height: 680px;
+    box-shadow: 2px 5px 15px rgba(255, 255, 255, 0.6);
+    width: 400px;
+    background-color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    border-radius: 20px;
+    top: 18%;
+}
+
+.square-principal .square-body {
+    color: white;
+    text-align: center;
+    margin: 23px;
+    margin-top: -380px;
+    position: relative;
+    top: 140px;
+}
+
+.social {
+    margin-top: 53px;
+}
+
+.social #instagram {
+    margin-left: -40px;
+}
+
+.social ul li {
+    opacity: 100%;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.social ul li img {
+    transition: all 0.3s;
+    opacity: 90%;
+    width: 60%;
+    height: 60%;
+}
+
+.social ul li img:hover {
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    opacity: 60%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.square-social {
+    position: absolute;
+    transition: all 0.3s;
+    top: 522px;
+    height: 100px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.6);
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.square-social:hover {
+    -moz-transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    opacity: 90%;
+    transform: scale(0.97);
+    transition: all 0.3s;
+}
+
+.square-bio {
+    font-size: 15px;
+    margin-top: 30px;
+    transition: all 0.3s;
+    height: 280px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.6);
+    width: 350px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.square-bio:hover {
+    -moz-transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    opacity: 90%;
+    transform: scale(0.97);
+    transition: all 0.3s;
+}
+
+.square-head {
+    margin-left: 85px;
+    transition: all 0.5s;
+    height: 180px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.9);
+    width: 180px;
+    background-image: url('../assets/img/lipe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-top: 200px;
+}
+
+.square-head:hover {
+    background-image: url('../assets/img/discord-bio.jpeg');
+    cursor: pointer;
+    -moz-transform: scale(0.97);
+    -webkit-transform: scale(0.97);
+    opacity: 90%;
+    transform: scale(0.97);
+    transition: all 0.5s;
+}

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/background.gif');
+}
+
+input {
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 25%;
+}
+
+.num {
+    transition: all 0.3s;
+    width: 64px;
+    cursor: pointer;
+    border: none;
+    opacity: 80%;
+    height: 67px;
+    margin: 2px;
+}
+
+.num:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    opacity: 90%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.text {
+    width: 173px;
+    height: 26px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+
+}
+
+.colormain {
+    background-color: black;
+    margin-bottom: 15px;
+    opacity: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.text1 {
+    transition: all 0.3s;
+    background-color: #FF6262;
+    opacity: 40%;
+    margin-left: 4px;
+    width: 62px;
+    height: 67px;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text1:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    opacity: 90%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.main .backcalc {
+    position: absolute;
+    width: 320px;
+    border-radius: 22px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.main .calc {
+    padding-bottom: 250px;
+    margin: 17px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.maincolor {
+    background-color: black;
+    margin: 2px;
+    transition: all 0.3s;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.maincolor1 {
+    border: none;
+    background-color: black;
+    margin: 2px;
+    transition: all 0.3s;
+    opacity: 70%;
+}
+
+.maincolor1:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    opacity: 90%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.maincolor:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    opacity: 90%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.blue {
+    opacity: 40%;
+    background-color: #0cd0cd;
+}
+
+.pin {
+    opacity: 40%;
+    background-color: #cf1596;
+}
+
+.gre {
+    opacity: 40%;
+    background-color: #aad800;
+}
+
+.pur {
+    opacity: 40%;
+    background-color: #8c52ff;
+}
+
+.list-inline-item {
+    display: inline-block;
+
+}
+
+.ora {
+    opacity: 40%;
+    background-color: #fcb707;
+}
+
+.footer-basic {
+    border-radius: 50%;
+    transition: all 0.3s;
+    position: absolute;
+    background-repeat: no-repeat;
+    bottom: 20px;
+    opacity: 70%;
+}
+
+.footer-basic:hover {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    opacity: 100%;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+#github li {
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+/* Site feito por Felipe Gabriel Teixeira Estrela (lipey1) -> https://github.com/lipey1/ 

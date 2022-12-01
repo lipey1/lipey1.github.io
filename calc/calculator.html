@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/icon.png">
+    <title>Calculator</title>
+
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="backcalc"></div>
+        <div class="calc">
+            <form action="" name="Calculator">
+                <input type="text" class="text maincolor1" name="text1" id="txt1" disabled>
+                <input type="button" class="text1 colormain" name="text12" value="C" id="c_del" onclick="c()"><br>
+
+                <input type="button" class="num maincolor" name="btn9" value="9" onclick="displaynum(btn9.value)">
+                <input type="button" class="num maincolor" name="btn8" value="8" onclick="displaynum(btn8.value)">
+                <input type="button" class="num maincolor" name="btn7" value="7" onclick="displaynum(btn7.value)">
+                <input type="button" class="num blue" name="addbtn" value="+" onclick="displaynum(addbtn.value)"><br>
+
+                <input type="button" class="num maincolor" name="btn6" value="6" onclick="displaynum(btn6.value)">
+                <input type="button" class="num maincolor" name="btn5" value="5" onclick="displaynum(btn5.value)">
+                <input type="button" class="num maincolor" name="btn4" value="4" onclick="displaynum(btn4.value)">
+                <input type="button" class="num pin" name="subbtn" value="-" onclick="displaynum(subbtn.value)"><br>
+
+                <input type="button" class="num maincolor" name="btn3" value="3" onclick="displaynum(btn3.value)">
+                <input type="button" class="num maincolor" name="btn2" value="2" onclick="displaynum(btn2.value)">
+                <input type="button" class="num maincolor" name="btn1" value="1" onclick="displaynum(btn1.value)">
+                <input type="button" class="num gre" name="multbtn" value="x" onclick="displaynum(multbtn.value)"><br>
+
+                <input type="button" class="num maincolor" name="dot" value="." onclick="displaynum(dot.value)">
+                <input type="button" class="num maincolor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+                <input type="button" class="num pur" name="eqlbtn" value="=" onclick="equal()">
+                <input type="button" class="num ora" name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br>
+
+            </form>
+        </div>
+
+
+    </div>
+
+    <div class="footer-basic">
+        <ul id="github">
+            <li><a href="https://github.com/lipey1/"><img src="./img/github.png" width=100%></a></li>
+        </ul>
+    </div>
+
+</body>
+
+<script src="./js/scriptcalc.js"></script>
+
+<!-- Site feito por Felipe Gabriel Teixeira Estrela (lipey1) -> https://github.com/lipey1/ -->
+
+</html>
